@@ -121,7 +121,7 @@ a.card b{color:var(--item)}b[style*="width:74px"]{color:var(--time)}
 </style>
 </head>
 <body>
-<div id="app"><div class="splash"><div class="logo"><img src="/logo.jpg" alt="Logo"></div><b>JUNED TUITION CLASSES</b></div></div>
+<div id="app"><div class="splash"><div class="logo"><img src="/logo.png" alt="Logo"></div><b>JUNED TUITION CLASSES</b></div></div>
 <script>setTimeout(function(){var a=document.getElementById("app");if(a&&a.querySelector(".splash")){a.innerHTML='<div style="padding:60px 20px;text-align:center;font:18px system-ui">The app could not start.<br>Check your internet connection and reload.</div>';}},8000);</script>
 <div id="toast" class="toast"></div>
 
@@ -152,7 +152,7 @@ try { db = initializeFirestore(fb, {localCache: persistentLocalCache({tabManager
 
 const CLASSES = ["Class 7","Class 8","Class 9","Class 10","Class 11 Science","Class 12 Science"];
 const SUBJECTS = ["Maths","Science","Physics","Chemistry","Biology","English","Social Science","Other"];
-const LOGO_URL = "logo.jpg";
+const LOGO_URL = "logo.png";
 const $= s => document.querySelector(s), root =$("#app");
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const pad = n => String(n).padStart(2, "0");
