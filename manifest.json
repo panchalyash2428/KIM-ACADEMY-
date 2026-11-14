@@ -1,20 +1,29 @@
+
 {
-  "name": "Juned Tuition Classes",
+  "id": "/KIM-ACADEMY/",
+  "name": "JUNED TUITION CLASSES",
   "short_name": "JTC",
-  "start_url": "./index.html",
+  "description": "Juned Tuition Classes - The Golden Key to Knowledge",
+  "start_url": "/KIM-ACADEMY-/",
+  "scope": "/KIM-ACADEMY-/",
   "display": "standalone",
-  "background_color": "#f6f8fc",
-  "theme_color": "#2563eb",
+  "orientation": "portrait",
+  "background_color": "#0b0f19",
+  "theme_color": "#0b0f19",
+  "lang": "en",
+  "dir": "ltr",
   "icons": [
     {
-      "src": "logo.png",
+      "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
-      "src": "logo.png",
+      "src": "icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
